@@ -1,0 +1,15 @@
+uuid: 268f8d4b-ed04-44cf-b571-25970844f171
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - slick_browser
+  module:
+    - node
+_core:
+  default_config_hash: veT4aDsicIzUdXT1sErPOArYxPbiNdm8r829-aEJxbU
+id: node.slick_browser
+label: 'Slick Browser'
+targetEntityType: node
+cache: true

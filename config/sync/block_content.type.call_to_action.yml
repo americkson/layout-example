@@ -1,0 +1,8 @@
+uuid: 8a26c89c-a3b1-4fea-9294-44560c7154be
+langcode: en
+status: true
+dependencies: {  }
+id: call_to_action
+label: 'Call to Action'
+revision: 1
+description: 'A prominent block of content to direct users to a new page of the site.'

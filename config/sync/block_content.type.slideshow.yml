@@ -1,0 +1,8 @@
+uuid: 87946bcc-7745-4d01-b761-32a73833c455
+langcode: en
+status: true
+dependencies: {  }
+id: slideshow
+label: Slideshow
+revision: 1
+description: 'A component that shows a series of images.'

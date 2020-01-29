@@ -1,0 +1,19 @@
+uuid: d46af8e7-7ade-4daa-a095-18fbca2d774f
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: Mb7ZXbvuLS2hBdB5J4REP_G-GSvECdQhJDHMjaXuyag
+name: Frontpage
+type: frontpage
+description: 'A single use content type for creating a front page / home page of site.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

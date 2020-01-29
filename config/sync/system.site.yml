@@ -1,0 +1,14 @@
+uuid: 22ddd354-1f23-437f-8a1f-8d40b673628d
+name: 'layout example'
+mail: adam@fourkitchens.com
+slogan: ''
+page:
+  403: /node/2
+  404: /node/3
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

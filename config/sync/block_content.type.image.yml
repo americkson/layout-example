@@ -1,0 +1,8 @@
+uuid: 2ef990a5-375e-4721-91ba-f6e6f03ebaf0
+langcode: en
+status: true
+dependencies: {  }
+id: image
+label: Image
+revision: 1
+description: 'Just an image.'

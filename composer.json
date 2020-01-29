@@ -1,0 +1,106 @@
+{
+    "name": "fourkitchens/sous-drupal-project",
+    "description": "Starter project for Sous a Drupal distribution featuring a theme based on Emulsify Design System.",
+    "type": "project",
+    "license": "GPL-2.0-or-later",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:fourkitchens/sous-drupal-distro.git"
+        },
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "composer/installers": "^1.2",
+        "drupal/config_direct_save": "^1.0",
+        "drupal/config_installer": "^1.0",
+        "cweagans/composer-patches": "^1.6.5",
+        "drupal/console": "^1.0.2",
+        "drupal/core": "~8.8",
+        "drupal/core-composer-scaffold": "^8.8",
+        "drupal/core-recommended": "^8.8",
+        "drush/drush": "~9",
+        "fourkitchens/sous-drupal-distro": "dev-master",
+        "oomphinc/composer-installers-extender": "^1.1",
+        "vlucas/phpdotenv": "^2.4",
+        "webflo/drupal-finder": "^1.0.0",
+        "webmozart/path-util": "^2.3",
+        "zaporylie/composer-drupal-optimizations": "^1.0"
+    },
+    "conflict": {
+        "drupal/drupal": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "composer-exit-on-patch-failure": true,
+        "patchLevel": {
+            "drupal/core": "-p2"
+        },
+        "installer-types": [
+            "npm-asset",
+            "bower-asset"
+        ],
+        "installer-paths": {
+            "web/core": [
+                "type:drupal-core"
+            ],
+            "web/libraries/masonry": [
+                "bower-asset/masonry-layout"
+            ],
+            "web/libraries/{$name}": [
+                "type:drupal-library",
+                "type:bower-asset",
+                "type:npm-asset"
+            ],
+            "web/modules/contrib/{$name}": [
+                "type:drupal-module"
+            ],
+            "web/profiles/contrib/{$name}": [
+                "type:drupal-profile"
+            ],
+            "web/themes/contrib/{$name}": [
+                "type:drupal-theme"
+            ],
+            "drush/Commands/contrib/{$name}": [
+                "type:drupal-drush"
+            ]
+        },
+        "drupal-scaffold": {
+            "locations": {
+                "web-root": "web/"
+            },
+            "source": "https://git.drupalcode.org/project/drupal/raw/{version}/{path}",
+            "allowed-packages": [
+                "fourkitchens/sous-drupal-distro"
+            ],
+            "excludes": [
+                ".eslintrc"
+            ],
+            "includes": [
+                "sites/default/example.settings.my.php"
+            ],
+            "initial": {
+                ".eslintignore": ".eslintignore",
+                ".eslintrc.json": ".eslintrc.json",
+                ".gitattributes": ".gitattributes",
+                ".htaccess": ".htaccess",
+                "robots.txt": "robots.txt",
+                "sites/example.settings.local.php": "sites/example.settings.local.php",
+                "sites/example.sites.php": "sites/example.sites.php"
+            },
+            "omit-defaults": false
+        }
+    }
+}

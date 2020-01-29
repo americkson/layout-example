@@ -1,0 +1,8 @@
+uuid: ae17cda0-be25-410f-a875-6d334a61d887
+langcode: en
+status: true
+dependencies: {  }
+id: text_block
+label: 'Text block'
+revision: 1
+description: 'A text blob with standard formatting.'
