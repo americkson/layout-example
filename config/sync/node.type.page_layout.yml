@@ -1,4 +1,4 @@
-uuid: 541d60cb-545c-4bc6-b7ea-5a8628b01787
+uuid: 9ba8fc5a-bcc9-4c20-ac2b-464190ce23e7
 langcode: en
 status: true
 dependencies:
@@ -9,9 +9,9 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-name: Test
-type: test
-description: ''
+name: 'Page Layout'
+type: page_layout
+description: 'A test content type with a layout builder.'
 help: ''
 new_revision: true
 preview_mode: 1

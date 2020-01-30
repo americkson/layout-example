@@ -1,10 +1,10 @@
-uuid: 698fd32f-14cd-432f-b7c0-a87d8cf4590e
+uuid: 50a4183c-32bb-4ebb-a6fb-5c9faa05d808
 langcode: en
 status: true
 dependencies:
   theme:
     - bartik
-id: tabs
+id: bartik_tabs
 theme: bartik
 region: secondary_menu
 weight: 0

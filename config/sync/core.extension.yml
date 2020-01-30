@@ -3,6 +3,7 @@ module:
   automated_cron: 0
   blazy: 0
   block: 0
+  block_blacklist: 0
   block_content: 0
   breakpoint: 0
   ckeditor: 0
@@ -23,6 +24,7 @@ module:
   entity_browser_entity_form: 0
   entity_embed: 0
   entity_reference: 0
+  entity_reference_layout: 0
   entity_reference_revisions: 0
   field: 0
   field_group: 0

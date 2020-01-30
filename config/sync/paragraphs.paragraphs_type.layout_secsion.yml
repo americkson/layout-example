@@ -1,0 +1,9 @@
+uuid: 37fff04e-ebd7-4108-83fd-a358f7d53ee7
+langcode: en
+status: true
+dependencies: {  }
+id: layout_secsion
+label: 'Layout Secsion'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

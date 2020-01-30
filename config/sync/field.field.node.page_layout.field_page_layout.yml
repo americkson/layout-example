@@ -1,0 +1,53 @@
+uuid: 6f35d992-a1c0-4b40-a6ac-9047c8fe1f38
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_page_layout
+    - node.type.page_layout
+  module:
+    - entity_reference_layout
+id: node.page_layout.field_page_layout
+field_name: field_page_layout
+entity_type: node
+bundle: page_layout
+label: 'Page Layout'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: '1'
+    target_bundles: null
+    target_bundles_drag_drop:
+      image:
+        weight: '6'
+        enabled: 0
+      layout_secsion:
+        weight: '7'
+        enabled: 0
+      text:
+        weight: '8'
+        enabled: 0
+      text_with_media:
+        weight: '9'
+        enabled: 0
+      video:
+        weight: '10'
+        enabled: 0
+    layout_bundles: layout_secsion
+    allowed_layouts:
+      'Columns: 1':
+        layout_onecol: 'One column'
+      'Columns: 2':
+        layout_twocol_section: 'Two column'
+        layout_twocol_bricks: 'Two column bricks'
+      'Columns: 3':
+        layout_threecol_section: 'Three column'
+        layout_threecol_33_34_33: 'Three column 33/34/33'
+      'Columns: 4':
+        layout_fourcol_section: 'Four column'
+field_type: entity_reference_layout_revisioned

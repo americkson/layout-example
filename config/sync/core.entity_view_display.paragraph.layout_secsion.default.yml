@@ -1,0 +1,12 @@
+uuid: ec69cf6c-2d21-4e3e-a526-279d601dadaa
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.layout_secsion
+id: paragraph.layout_secsion.default
+targetEntityType: paragraph
+bundle: layout_secsion
+mode: default
+content: {  }
+hidden: {  }

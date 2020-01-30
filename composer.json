@@ -20,13 +20,17 @@
     "require": {
         "php": ">=7.2",
         "composer/installers": "^1.2",
+        "cweagans/composer-patches": "^1.6.5",
+        "drupal/block_blacklist": "^1.0",
         "drupal/config_direct_save": "^1.0",
         "drupal/config_installer": "^1.0",
-        "cweagans/composer-patches": "^1.6.5",
         "drupal/console": "^1.0.2",
         "drupal/core": "~8.8",
         "drupal/core-composer-scaffold": "^8.8",
         "drupal/core-recommended": "^8.8",
+        "drupal/entity_reference_layout": "^1.0@alpha",
+        "drupal/layout_builder_enhancements": "^1.0@beta",
+        "drupal/layout_builder_restrictions": "^2.5",
         "drush/drush": "~9",
         "fourkitchens/sous-drupal-distro": "dev-master",
         "oomphinc/composer-installers-extender": "^1.1",
@@ -101,6 +105,11 @@
                 "sites/example.sites.php": "sites/example.sites.php"
             },
             "omit-defaults": false
+        },
+        "patches": {
+            "drupal/core": {
+                "Custom blocks break layout builder module - Quick Edit": "https://www.drupal.org/files/issues/2019-12-12/3072231-14-core-8-8-x.patch"
+            }
         }
     }
 }

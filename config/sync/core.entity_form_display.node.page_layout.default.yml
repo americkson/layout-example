@@ -1,17 +1,18 @@
-uuid: 5da3fe0e-1764-4016-a8e4-c73c55242ed6
+uuid: 0e4ccc31-c92a-414b-b285-d3f98c88a3c7
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.test.body
-    - field.field.node.test.layout_builder__layout
-    - node.type.test
+    - field.field.node.page_layout.body
+    - field.field.node.page_layout.field_page_layout
+    - node.type.page_layout
   module:
+    - entity_reference_layout
     - path
     - text
-id: node.test.default
+id: node.page_layout.default
 targetEntityType: node
-bundle: test
+bundle: page_layout
 mode: default
 content:
   body:
@@ -30,6 +31,13 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_page_layout:
+    weight: 122
+    settings:
+      always_show_options_form: false
+    third_party_settings: {  }
+    type: entity_reference_layout_widget
+    region: content
   path:
     type: path
     weight: 30
@@ -80,5 +88,4 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden:
-  layout_builder__layout: true
+hidden: {  }
