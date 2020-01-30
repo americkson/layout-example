@@ -16,5 +16,5 @@ yarn rebuild
 ```
 
 
-View your the local URL https://layout-drupal-example.lndo.site/
+View the local URL https://layout-drupal-example.lndo.site/
 
