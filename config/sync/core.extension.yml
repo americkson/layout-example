@@ -19,6 +19,7 @@ module:
   easy_breadcrumb: 0
   editor: 0
   embed: 0
+  emulsify_twig: 0
   entity_browser: 0
   entity_browser_enhanced: 0
   entity_browser_entity_form: 0
@@ -80,6 +81,7 @@ theme:
   seven: 0
   thunder_admin: 0
   bartik: 0
+  saucier: 0
 profile: sous
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
