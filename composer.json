@@ -32,6 +32,7 @@
         "drupal/layout_builder_enhancements": "^1.0@beta",
         "drupal/layout_builder_restrictions": "^2.5",
         "drush/drush": "~9",
+        "emulsify-ds/emulsify-design-system": "^1.0@alpha",
         "fourkitchens/sous-drupal-distro": "dev-master",
         "oomphinc/composer-installers-extender": "^1.1",
         "vlucas/phpdotenv": "^2.4",
