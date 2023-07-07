@@ -57,7 +57,7 @@
     "sass-loader": "^8.0.0",
     "sous-components-twig": "^0.0.23",
     "sous-scss": "^0.0.21",
-    "stylelint": "^12.0.0",
+    "stylelint": "^15.10.1",
     "stylelint-config-standard": "^19.0.0",
     "stylelint-webpack-plugin": "^1.0.2",
     "svg-sprite-loader": "^4.1.6",
